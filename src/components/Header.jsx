@@ -52,7 +52,7 @@ const Header = (props) => {
           {/* menu links */}
 
           {menuLinks.map((link) => (
-            <Link key={link.id} to={`/personal_website_yt${link.link}`} className="hover:text-orange-600">
+            <Link key={link.id} to={`/personal_website${link.link}`} className="hover:text-orange-600">
               {link.title}
             </Link>
           ))}

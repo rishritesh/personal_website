@@ -19,17 +19,17 @@ function App() {
       <Router>
         <Routes>
 
-          <Route path="/personal_website_yt/" exact element={<Page />} />
-          <Route path="/personal_website_yt/about" element={<Header>
+          <Route path="/personal_website/" exact element={<Page />} />
+          <Route path="/personal_website/about" element={<Header>
             <About />
           </Header>} />
-          <Route path="/personal_website_yt/skills" element={<Header>
+          <Route path="/personal_website/skills" element={<Header>
             <Expertise />
           </Header>} />
-          <Route path="/personal_website_yt/portfolio" element={<Header>
+          <Route path="/personal_website/portfolio" element={<Header>
             <Portfolio />
           </Header>} />
-          <Route path="/personal_website_yt/contact" element={<Header>
+          <Route path="/personal_website/contact" element={<Header>
             <Contact />
           </Header>} />
 
