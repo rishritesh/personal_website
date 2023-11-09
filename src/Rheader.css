@@ -1,0 +1,43 @@
+/* RHeader.css */
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    background-color: #f0f0f0;
+    height: 80px;
+  }
+  
+  .brand-logo {
+    /* Brand logo styles */
+  }
+  
+  .menu-links {
+    /* Menu links styles */
+  }
+  
+  .menu-links.hidden {
+    display: none;
+  }
+  
+  .action-button {
+    /* Action button styles */
+  }
+  
+  .hover-text-orange:hover {
+    color: orange;
+  }
+  
+  @media (max-width: 768px) {
+    .menu-links {
+      display: none;
+    }
+  
+    .menu-links.hidden {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  
